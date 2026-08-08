@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+
+# IMDb downloads, SQLite membership indexes, and Apple response cache
+data/
+
+# Generated indexes
+tamil-movie-songs.md
+tamil-movie-songs.json
+*.unmatched.json
+*.checkpoint.json
